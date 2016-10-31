@@ -2,7 +2,7 @@
 
 require APPPATH . '/libraries/REST_Controller.php';
 
-class Mahasiswa extends REST_Controller {
+class Anggota extends REST_Controller {
 
     function __construct($config = 'rest') {
         parent::__construct($config);
